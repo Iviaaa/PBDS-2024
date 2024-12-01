@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <link rel="stylesheet" href="https://unpkg.com/98.css">
+</head>
+
+<body style="background-color: blue;">
+    <!-- <button id="openPopup">Open Popup</button>
+
+    <div class="popup-window" id="popup">
+        <div class="title-bar">
+            <span class="title-bar-text">Error</span>
+            <span class="title-bar-controls">
+                <button id="closePopup">X</button>
+            </span>
+        </div>
+        <div class="popup-body">
+            <p>An unexpected error occurred. Please restart your computer.</p>
+            <button id="okButton">OK</button>
+        </div>
+    </div> -->
+
+    <div class="window-body" >      
+        <menu role="tablist">
+          <li role="tab" aria-selected="true" style="background-color:rgb( 192, 192, 192);"><a href="index.html">Desktop</a></li>
+          <li role="tab" style="background-color: lightgray;"><a href="about.html">My computer</a></li>
+          <li role="tab" style="background-color: lightgray;"><a href="detail.html">Recycle bin</a></li>
+        </menu>
+        <div class="window" role="tabpanel" style="height: 100vh">
+          <div class="window-body">
+            <p>Public Blue Screens of Death</p>
+            <p><button onclick="displayRandomImage()">Show Another Image</button></p>
+
+            <div id="textbox" style="position: fixed; top: 10vh; left: 50vw; width: 100px; padding: 10px; background-color: lightgray;">
+                <p>info</p>
+                <p>System</p>
+                <p>Function</p>
+                <p>Location</p>
+            </div>
+            <img id="randomImage" src="" alt="Random Image" width="500">
+        
+          </div>
+        </div>
+      </div>
+
+    <script src="popup.js"></script>
+    <script src="random.js"></script>
+
+</body>
+
+</html>

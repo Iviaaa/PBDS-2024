@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'ms-sans-serif-5';
+    src: url('font/ms-sans-serif-5.otf');
+}
+
+#crash {
+    position: fixed;
+    font-size: 24px;
+    font-family: "ms-sans-serif-5", system-ui;
+    z-index: 3;
+    top: 5vh;
+    left: 5vw;
+    /* mix-blend-mode: difference; */
+}
+#popup {
+    position: fixed;
+    font-size: 24px;
+    font-family: "ms-sans-serif-5", system-ui;
+    z-index: 3;
+    top: 90vh;
+    left: 5vw;
+    /* mix-blend-mode: difference; */
+}
+#ghost {
+    position: fixed;
+    font-size: 24px;
+    font-family: "ms-sans-serif-5", system-ui;
+    z-index: 3;
+    top: 90vh;
+    left: 90vw;
+    /* mix-blend-mode: difference; */
+}
+.nav a{
+    color:blue;
+}
+.nav a:visited {
+    color: black;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <link rel="stylesheet" href="https://unpkg.com/98.css">
+</head>
+
+<body style="background-color: blue;">
+    <!-- <button id="openPopup">Open Popup</button>
+
+    <div class="popup-window" id="popup">
+        <div class="title-bar">
+            <span class="title-bar-text">Error</span>
+            <span class="title-bar-controls">
+                <button id="closePopup">X</button>
+            </span>
+        </div>
+        <div class="popup-body">
+            <p>An unexpected error occurred. Please restart your computer.</p>
+            <button id="okButton">OK</button>
+        </div>
+    </div> -->
+
+    <div class="window-body">      
+        <menu role="tablist">
+          <li role="tab" style="background-color: lightgray;"><a href="index.html">Desktop</a></li>
+          <li role="tab" aria-selected="true" style="background-color: rgb( 192, 192, 192);"><a href="about.html">My computer</a></li>
+          <li role="tab" style="background-color: lightgray;"><a href="detail.html" >Recycle bin</a></li>
+        </menu>
+        <div class="window" role="tabpanel" style="height: 100vh">
+          <div class="window-body" id ="displaywindow">
+            <div class="window"id="prev0" style="width: 300px">
+              <div class="title-bar">
+                <div class="title-bar-text" style="font-size: 10pt">Artist Statement</div>
+                <div class="title-bar-controls">
+                  <button aria-label="Minimize"></button>
+                  <button aria-label="Maximize"></button>
+                  <button aria-label="Close"></button>
+                </div>
+              </div>
+              <div class="window-body">
+                <p>The commodification of information and the transformation of human creativity into data indexes represent a significant shift in how we value and interact with knowledge and art.         </p>
+              </div>
+              <button disabled>Click me</button>
+              <button class="previous">Previous</button>
+              <button class="next">Next</button>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <script src="popup.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>❗About</title>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <link rel="stylesheet" href="https://unpkg.com/98.css">
+    <link href="style.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="window-body" id="displaywindow" style="position:absolute; z-index: 1;">
+        <div class="window" id="prev0" style="position: fixed; width: 300px; top:10vh; left:15vw; background-color:white">
+            <div class="title-bar" style="border:1px solid gray; background: blue;">
+                <div class="title-bar-text" style="font-size: 10pt; color:white">Artist Statement</div>
+                <div class="title-bar-controls">
+                    <button aria-label="Minimize" style="background-color: transparent;"></button>
+                    <button aria-label="Maximize" style="background-color: transparent;"></button>
+                    <button aria-label="Close" style="background-color: transparent;"></button>
+                </div>
+            </div>
+            <div class="window-body">
+                <p>The commodification of information and the transformation of human creativity into data indexes
+                    represent a significant shift in how we value and interact with knowledge and art. </p>
+            </div>
+            <button disabled style="background-color: transparent;">Click me</button>
+            <button disabled class="previous" style="background-color: transparent;">Previous</button>
+            <button class="next" style="background-color: transparent;">Next</button>
+
+        </div>
+    </div>
+
+    <div class="nav">
+        <a id= "crash" href="index.html" target="_blank">
+            crash
+        </a>
+        <a id= "popup" href="about.html" target="_blank">
+            pop up
+        </a>
+        <a id= "ghost" href="details.html" target="_blank">
+            ghost
+        </a>
+    </div>
+
+    <script src="popup.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+
+</body>
+
+</html>
